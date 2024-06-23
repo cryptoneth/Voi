@@ -183,6 +183,8 @@ https://discord.com/channels/1055863853633785857/1181252381816655952
 
 شرکت کردن در فاز نود و ثبت ادرس . کد پایین رو بزنید چند دقیقه بعد بهتون یه participation id میده
 
+******************** حواستون باشه تو کامند های از اینجا تا اخر . هر جا ادرس ولت خواست باید ادرس ولت کپی کنید . هر جا پسوورد خواست وارد کنید 
+
 ```
 getaddress() {
   if [ "$addr" == "" ]; then echo -ne "\nNote: Completing this will remember your address until you log out. "; else echo -ne "\nNote: Using previously entered address. "; fi; echo -e "To forget the address, press Ctrl+C and enter the command:\n\tunset addr\n";
