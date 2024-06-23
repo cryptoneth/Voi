@@ -279,6 +279,9 @@ goal account dump -a $addr | jq -r 'if (.onl == 1) then "You are online!" else "
 هر بار سرور رو باز میکنید و خواستید چک کنید برای این که مجدد بتونید استاتوس هارو ببینید حتما کامند زیر رو اول اجرا کنید
 
 ```
+echo -e "\nexport ALGORAND_DATA=/var/lib/algorand/" >> ~/.bashrc && source ~/.bashrc && echo OK
+sudo adduser $(whoami) algorand && echo OK
+
 sudo ALGORAND_DATA=/var/lib/algorand diagcfg telemetry enable &&\
 sudo systemctl restart voi
 
