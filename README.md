@@ -207,7 +207,7 @@ Participation key generation successful. Participation ID: CJOZKSLXZUNEPPOFLRU7J
 Generated with goal v3.17.0  
 
 
-استاتوس نودتون رو با کد پایین چک کنید
+استاتوس نودتون رو با کد پایین چک کنید . ازتون میخواد ادرس ولتتون رو هم وارد کنید
 
 
 ```
@@ -294,6 +294,7 @@ sudo ALGORAND_DATA=/var/lib/algorand diagcfg telemetry enable &&\
 sudo systemctl restart voi
 
 ```
+
 
 ```
 getaddress() {
